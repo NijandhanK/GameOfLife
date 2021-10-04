@@ -18,7 +18,7 @@ namespace GameOfLife
         {
             Console.WriteLine("Which generation's population positions are you interested in?");
             InterestedGeneration = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Input the population position of generation ZERO.\nPlease give the input seporated by colon(:) in (x,y) format (eg - 2,1:2,2:2,3");
+            Console.WriteLine("Input the population position of generation ZERO.\nPlease give the input seporated by colon(:) in (x,y) format (eg - 2,1:2,2:2,3)");
             UserInputPosition = Console.ReadLine();
             string[] lst = UserInputPosition.Trim().Split(':');
             Console.WriteLine("Given inputs are :");
